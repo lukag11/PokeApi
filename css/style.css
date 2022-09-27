@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #6cf;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.section-container-general {
+
+
+    width: 600px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid blue;
+}
+
+h1 {
+    background: linear-gradient(to right, #fd3030, #f3f035);
+    color: black;
+    text-align: center;
+}
+
+h4 {
+    padding: 5px;
+    text-align: center;
+}
+
+.container-logo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.logo {
+    width: 200px;
+}
+
+.formulario {
+    margin: 10px;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.add-btn {
+    box-shadow: inset 0px 1px 0px 0px #bee2f9;
+    background: linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+    background-color: #63b8ee;
+    border-radius: 6px;
+    border: 1px solid #3866a3;
+    display: inline-block;
+    cursor: pointer;
+    color: #14396a;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #7cacde;
+
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-number {
+    padding: 6px;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 0px;
+    box-shadow: -6px 0px 5px rgba(66, 66, 66, .75);
+    text-shadow: 0px 0px 6px rgba(66, 66, 66, .75);
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.input-number::placeholder {
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+}
+
+
+
+.result-list {
+    padding: 40px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+}
+
+.error {
+    padding: 20px;
+    width: 300px;
+}
+
+.container-info {
+
+    margin: 0px;
+    padding: 20px;
+
+}
+
+label {
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* tipos */
+.normal {
+    background-color: #aa9;
+}
+
+.fire {
+    background-color: #f42;
+}
+
+.grass {
+    background-color: #7c5;
+}
+
+.poison {
+    background-color: #a59;
+}
+
+.water {
+    background-color: #39f;
+}
+
+.electric {
+    background-color: #fc3;
+}
+
+.ice {
+    background-color: #6cf;
+}
+
+.fighting {
+    background-color: #b54;
+}
+
+.ground {
+    background-color: #db5;
+}
+
+.flying {
+    background-color: #89f;
+}
+
+.psychic {
+    background-color: #f59;
+}
+
+.bug {
+    background-color: #ab2;
+}
+
+.rock {
+    background-color: #ba6;
+}
+
+.ghost {
+    background-color: #66b;
+}
+
+.dragon {
+    background-color: #76e;
+}
+
+.dark {
+    background-color: rgb(7, 3, 1);
+}
+
+.steel {
+    background-color: #aab;
+}
+
+.fairy {
+    background-color: #e9e;
+}
+
+.container-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.img-pokemon {
+    padding: 0px;
+    width: 200px;
+}
+
+@media (max-width: 576px) {
+
+    .section-container-general {
+
+
+        width: 350px;
+        padding: 5px 5px 5px 5px;
+
+    }
+
+
+}
